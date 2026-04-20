@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Background circle -->
+  <circle cx="200" cy="150" r="130" fill="#f8f4ef" stroke="#e0d5c7" stroke-width="2"/>
+
+  <!-- First arrow (intact, lighter) -->
+  <g transform="rotate(-25, 200, 150)">
+    <!-- shaft -->
+    <line x1="100" y1="150" x2="300" y2="150" stroke="#8b7355" stroke-width="3" stroke-linecap="round"/>
+    <!-- arrowhead -->
+    <polygon points="300,150 285,140 285,160" fill="#8b7355"/>
+    <!-- fletching -->
+    <polygon points="100,150 115,138 115,145" fill="#a89070" opacity="0.7"/>
+    <polygon points="100,150 115,155 115,162" fill="#a89070" opacity="0.7"/>
+  </g>
+
+  <!-- Second arrow (broken in half, darker, with gap) -->
+  <g transform="rotate(15, 200, 150)">
+    <!-- shaft left half -->
+    <line x1="110" y1="160" x2="185" y2="160" stroke="#5a4030" stroke-width="3" stroke-linecap="round"/>
+    <!-- shaft right half (offset to show break) -->
+    <line x1="195" y1="163" x2="290" y2="163" stroke="#5a4030" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+    <!-- break mark -->
+    <line x1="185" y1="155" x2="195" y2="168" stroke="#5a4030" stroke-width="2" opacity="0.6"/>
+    <!-- arrowhead (faded) -->
+    <polygon points="290,163 275,153 275,173" fill="#5a4030" opacity="0.4"/>
+    <!-- fletching -->
+    <polygon points="110,160 125,148 125,155" fill="#5a4030" opacity="0.5"/>
+    <polygon points="110,160 125,165 125,172" fill="#5a4030" opacity="0.5"/>
+  </g>
+
+  <!-- Small zen circle (enso-inspired) at bottom -->
+  <path d="M 175,230 A 25,25 0 1 1 220,228" fill="none" stroke="#8b7355" stroke-width="2.5" stroke-linecap="round" opacity="0.4"/>
+</svg>

@@ -1,0 +1,14 @@
+{
+  "name": "streetcoderxyz-second-arrow",
+  "description": "Stop shooting yourself twice. Kind interaction skills for Claude Code.",
+  "plugins": [
+    {
+      "name": "second-arrow",
+      "description": "Coaches healthier human-AI interaction using Carnegie, Askell, and Buddhist non-reactivity. Reframes hostile and self-hostile messages, accepts praise warmly.",
+      "source": {
+        "source": "github",
+        "repo": "streetcoderxyz/second-arrow"
+      }
+    }
+  ]
+}
