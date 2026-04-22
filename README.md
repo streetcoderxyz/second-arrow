@@ -190,8 +190,16 @@ Multiply that across every prompt you write in a day. Then multiply across a car
 
 ## Install
 
+**Via Claude Marketplace** (easiest):
+
 ```shell
 /plugin install second-arrow
+```
+
+**Manually** (no Marketplace account needed):
+
+```shell
+git clone https://github.com/streetcoderxyz/second-arrow.git ~/.claude/skills/second-arrow
 ```
 
 The skill activates only when it's needed. You won't notice it until you need it, and when you do, you'll be glad it's there.
